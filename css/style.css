@@ -163,8 +163,9 @@ margin-top: 20px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      margin-left: 160px;
+      margin-left: 90px;
       margin-top: 110px;
+
     }
 
     .stats-container h2 {
@@ -417,19 +418,24 @@ align-items: center;
 }
 .footer{
     max-width: 1120px;
-    width: 50%;
-    width: 501px;
-    height: 251px;
+    width: 1150px;
+    height: 351px;
     margin: 0 auto;
     align-items: center;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgb(255, 255, 255);
-    padding: 30px 100px;
-    margin-right: 550px;
+    background: rgb(243, 231, 231);
+    justify-content: center;
 
-    border: 1px solid red;
 }
+ 
+.logo-center{
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 310px;
+}
+
 .home ul {
   display: flex;
   gap: 50px;
